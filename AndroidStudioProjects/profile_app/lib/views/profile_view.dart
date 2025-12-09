@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/custom_app_bar.dart';
+
 class ProfileView extends StatelessWidget {
   const ProfileView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return    Scaffold(
+    return     Scaffold(
       body: Column(
         children:  [
           CustomAppBar()
@@ -15,19 +17,3 @@ class ProfileView extends StatelessWidget {
   }
 }
 
-class CustomAppBar extends StatelessWidget {
-  const CustomAppBar({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      height: 200,
-      decoration:  BoxDecoration(
-        color: Color(0xff234372)
-      ),
-    );
-  }
-}
