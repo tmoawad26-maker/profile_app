@@ -5,8 +5,8 @@ class ProfileApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: ProfileView(),
+    return const  MaterialApp(
+      home:  ProfileView(),
     );
   }
 }
