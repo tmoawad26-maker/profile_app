@@ -14,7 +14,7 @@ class CustomAppBar extends StatelessWidget {
       ),
       child: const Row(
         mainAxisSize: MainAxisSize.min,
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+      mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
             child: Text('Profile',
@@ -25,6 +25,7 @@ class CustomAppBar extends StatelessWidget {
             ),
             ),
           ),
+          SizedBox(width: 100),
           Icon(Icons.edit, color: Colors.white,)
         ],
       ),
