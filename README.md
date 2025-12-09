@@ -1,2 +1,2 @@
 # profile_app
-create profile apps with flutter
+profile app is placed in master branch 
